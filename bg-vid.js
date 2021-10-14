@@ -11,9 +11,9 @@ function onYouTubeIframeAPIReady() {
     width: '100%',
     height: '100%',
     videoId: 'nFAK8Vj62WM',
-    host: `${window.location.protocol}//www.youtube.com`,
+    host: `https://youtube.com`,
     playerVars: {
-      'origin': 'https://www.o00o.me',
+      'origin': 'https://o00o.me',
       'autoplay': 1,
       'autohide': 1,
       'showinfo': 0,
