@@ -12,9 +12,9 @@ function onYouTubeIframeAPIReady() {
     height: '100%',
     videoId: 'nFAK8Vj62WM',
     playerVars: {
+      'enablejsapi': 1,
+      'origin': 'https://umm.im',
       'autoplay': 1,
-      'showinfo': 0,
-      'autohide': 1,
       'controls': 0,
       'modestbranding': 1,
       'loop': 1,
