@@ -13,7 +13,7 @@ function onYouTubeIframeAPIReady() {
     videoId: 'nFAK8Vj62WM',
     host: `${window.location.protocol}//www.youtube.com`,
     playerVars: {
-      'origin': window.location.href,
+      'origin': window.location.origin,
       'autoplay': 1,
       'autohide': 1,
       'showinfo': 0,
