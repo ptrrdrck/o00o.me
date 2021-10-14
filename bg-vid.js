@@ -12,11 +12,10 @@ function onYouTubeIframeAPIReady() {
     height: '100%',
     videoId: 'nFAK8Vj62WM',
     playerVars: {
-      'enablejsapi': 1,
-      'host': 'https://www.youtube.com',
-      'origin': 'https://o00o.me',
+      'origin': window.location.href,
       'autoplay': 1,
       'autohide': 1,
+      'showinfo': 0,
       'controls': 0,
       'modestbranding': 1,
       'loop': 1,
