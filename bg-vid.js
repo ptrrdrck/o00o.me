@@ -13,7 +13,7 @@ function onYouTubeIframeAPIReady() {
     videoId: 'nFAK8Vj62WM',
     playerVars: {
       'enablejsapi': 1,
-      'origin': 'https://umm.im',
+      'origin': 'https://o00o.me',
       'autoplay': 1,
       'controls': 0,
       'modestbranding': 1,
