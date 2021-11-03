@@ -1,14 +1,14 @@
-const characters = 'o0';
+const charSet = 'o0';
 
-function generateString(length) {
-    let result = ' ';
-    const charactersLength = characters.length;
+function makeString(length) {
+    let result = '';
+    const charSetLength = charSet.length;
     for (let i = 0; i < length; i++) {
-        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        result += charSet.charAt(Math.floor(Math.random() * charSetLength));
     }
     return result;
 }
 
-var oO = generateString(1000);
+var oO = makeString(1000);
 
 document.getElementById("rand").innerHTML = oO;
