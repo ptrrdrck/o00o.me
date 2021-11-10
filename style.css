@@ -70,6 +70,13 @@ a:hover {
   opacity: 1;
 }
 
+#max {
+  background-color: rgba(1, 1, 1, 0.1);
+  padding: 5px;
+  margin: calc(20px + 1vw) calc(20px + 10vw);
+  border-radius: 5px;
+}
+
 #string {
   word-break: break-all;
   background-color: rgba(1, 1, 1, 0.1);
